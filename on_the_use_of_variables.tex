@@ -1,0 +1,357 @@
+\section{On the use of variables}
+\begin{enumerate}
+\item Which among the following expressions are sentential functions,
+  and which are designatory functions:
+  \begin{enumerate}
+  \item \emph{x is divisible by 3}.
+
+    Sentential, since $x$ is a free variable, and the divisibility of
+    a number by another is an assertion.
+
+  \item \emph{the sum of the numbers x and 2}.
+
+    Designatory, since the sum of $x$ and 2 describes a number through
+    addition.
+
+  \item $y^2-z^2$
+
+    Designatory, since the expression describes a number through
+    exponentiation and subtraction.
+
+  \item $y^2=z^2$
+
+    Sentential, expressing the assertion that the square of $x$ and
+    $z$ are equal.
+
+  \item $x+2<y+3$
+
+    Sentential, expressing an inequality.
+
+  \item $(x+3)-(y+5)$
+
+    Designatory, describes a value through addition and subtraction of
+    free variables.
+
+  \item \emph{the mother of x and z}.
+
+    Designatory, describes a person.
+
+  \item \emph{x is the mother of z} \hspace{1em}.
+
+    Sentential, makes an assertion about $x$ and $z$.
+
+  \end{enumerate}
+
+\item Give examples of sentential and designatory functions from the
+  field of geometry.
+  \begin{enumerate}
+  \item \textbf{Sentential:} The area of circle $a$ is twice that of
+    square $b$.
+  \item \textbf{Designatory:} The circle having a radiuz of $z$.
+  \end{enumerate}
+
+
+\item The sentential functions which are encountered in arithmetic and
+  which contain only one variable (which may, however, occur at
+  several different places in the given sentential function) can be
+  divided into three categories: (i) functions satisfied by every
+  number; (ii) functions not satisfied by any number; (iii) functions
+  satisfied by some numbers, and not satisfied by others.
+
+  To which of these categories do the following sentential functions
+  belong:
+
+  \begin{enumerate}
+  \item $x+2=5+x$
+
+    Category (ii).  No number is equal to itself plus 3.
+
+  \item $x^2=49$
+
+    Category (iii).  $x=7$ satisfies the formula, but $x=8$ does not.
+
+  \item $(y+2)\times(y-2)<y^2$
+
+    Category (i).  The left-hand side of the inequality expands to
+    $(y^2-4)$.  This is obviously always less than the right hand
+    side, and so the inequality will always hold true.
+
+  \item $y+24>36$
+
+    Category (iii).  $y>8$ satisfies the formula, while $y=0$ does
+    not.
+
+  \item $z=0$ \emph{or} $z<0$ \emph{or} $z>0$
+
+    Category (i). All numbers meet one of the given criteria.
+
+  \item $z+24>z+36$ \hspace{1em}
+
+    Category (ii).  No number is greater than itself plus 8.
+
+  \end{enumerate}
+
+\item Give examples of universal, absolutely existential and
+  conditionally existential theorems from the fields of arithmetic and
+  geometry.
+  \begin{enumerate}
+  \item Universal
+
+    \textbf{Arithmetic:} Associative law, $\forall a, b, c :
+    (a+b)+c=a+(b+c)$.
+
+    \textbf{Geometry:} For all circles, $C=\pi \times d$.
+
+  \item Absolutely existential
+
+    \textbf{Arithmetic:} $\exists a : a > 5$.
+
+    \textbf{Geometry:} There exists a triangle with internal angles
+    measuring $30^{\circ}$, $60^{\circ}$ and $90^{\circ}$.
+
+  \item Conditionally existential
+
+    \textbf{Arithmetic:} For all $x$ and $y$, there is a $z$ such that
+    $z = x + y$. % from page 9
+
+    \textbf{Geometry:} Given any straight line and a point not on it,
+    there exists one and only one straight line which passes through
+    that point and never intersects the first line, no matter how far
+    they are extended. (Parallel Postulate)
+
+  \end{enumerate}
+
+\item By writing quantifiers containing the variables ``$x$'' and
+  ``$y$'' in front of the sentential function: $$ x > y $$ it is
+  possible to obtain various sentences from it, for instance:
+\begin{equation*}
+\emph{for any numbers x and y, } x > y;
+\end{equation*}
+\begin{equation*}
+\emph{for any number x, there exists a number y such that } x > y;
+\end{equation*}
+\begin{equation*}
+\emph{there is a number y such that, for any number x, } x > y.
+\end{equation*}
+
+Formulate them all (there are six altogether) and determine which of
+them are true.
+
+\begin{enumerate}
+\item $\emph{for any numbers x and y, } x > y.$
+  \begin{itemize}
+  \item False, since $5 \ngtr 10$.
+  \end{itemize}
+\item $\emph{for any number x, there exists a number y such that } x > y.$
+  \begin{itemize}
+  \item True, take the value bound to $x$, and set $y = x - 1$.
+  \end{itemize}
+\item $\emph{for any number y, there exists a number x such that } x > y.$
+  \begin{itemize}
+  \item True, take the value bound to $y$, and set $x = y + 1$.
+  \end{itemize}
+\item $\emph{there is a number y such that, for any number x, } x > y.$
+  \begin{itemize}
+  \item False, since there is no smallest number.
+  \end{itemize}
+\item $\emph{there is a number x such that, for any number y, } x > y.$
+  \begin{itemize}
+  \item False, since there is no largest number.
+  \end{itemize}
+\item $\emph{there are numbers x and y, such that } x > y.$
+  \begin{itemize}
+  \item True, $4 > 5$.
+  \end{itemize}
+\end{enumerate}
+
+\item Do the same as in Exercise 5 for the following sentential
+  functions:
+  \begin{equation*}
+    x + y^2 > 1
+  \end{equation*}
+  and
+  \begin{equation*}
+    \emph{x is the father of y}
+  \end{equation*}
+  (assuming that the variables ``$x$'' and ``$y$'' in the latter stand
+  for names of human beings).
+
+  \begin{enumerate}
+  \item $\emph{for any numbers x and y, } x + y^2 > 1$
+    \begin{itemize}
+    \item False, since $0 + 0^2 \ngtr 1$.
+    \end{itemize}
+  \item $\emph{for any number x, there exists a number y such that } x
+    + y^2 > 1$
+    \begin{itemize}
+    \item True, take the value bound to $x$, and set $y = |x| + 2$.
+    \end{itemize}
+  \item $\emph{for any number y, there exists a number x such that } x
+    + y^2 > 1$
+    \begin{itemize}
+    \item True, the formula is satisfied whenever $x \geq 2$.
+    \end{itemize}
+  \item $\emph{there is a number y such that, for any number x, } x +
+    y^2 > 1$
+    \begin{itemize}
+    \item False, take the value bound to $y$, and set $x = - y^2$.
+    \end{itemize}
+  \item $\emph{there is a number x such that, for any number y, } x +
+    y^2 > 1$
+    \begin{itemize}
+    \item True, $x = 2$.
+    \end{itemize}
+  \item $\emph{there are numbers x and y, such that } x + y^2 > 1$
+    \begin{itemize}
+    \item True, $1 + 2^2 > 1$.
+    \end{itemize}
+  \end{enumerate}
+  \vspace{1em}
+  \begin{enumerate}
+  \item \emph{for any x and y, x is the father of y}
+    \begin{itemize}
+    \item False.
+    \end{itemize}
+  \item \emph{for any x, there exists a y such that x is the father of
+      y}
+    \begin{itemize}
+    \item False, not every person is a father.
+    \end{itemize}
+  \item \emph{for any y, there exists an x such that x is the father
+      of y}
+    \begin{itemize}
+    \item True, every person has a father.
+    \end{itemize}
+  \item \emph{there is a y such that, for any x, x is the father of y}
+    \begin{itemize}
+    \item False, not every person has the same father.
+    \end{itemize}
+  \item \emph{there is an x such that, for any y, x is the father of
+      y}
+    \begin{itemize}
+    \item False, no one is the father of everyone else.
+    \end{itemize}
+  \item \emph{there exist x and y such that, x is the father of y}
+    \begin{itemize}
+    \item True, there exists some father-child relationship.
+    \end{itemize}
+  \end{enumerate}
+
+\item State a sentence of everyday language that has the same meaning
+  as:
+  \begin{equation*}
+    \emph{for every x, if x is a dog, then x has a good sense of smell}
+  \end{equation*}
+  and that contains no quantifier or variables.
+
+  \begin{itemize}
+  \item Dogs have a good sense of smell.
+  \end{itemize}
+
+\item Replace the sentence:
+  \begin{equation*}
+    \emph{some snakes are poisonous}
+  \end{equation*}
+  by one which has the same meaning but is formulated with the help of
+  quantifiers and variables.
+
+  \begin{itemize}
+  \item There exists an $x$, such that $x$ is a snake, and $x$ is
+    poisonous.
+  \end{itemize}
+
+\item Differentiate, in the following expressions, between the free
+  and bound variables:
+  \begin{enumerate}
+  \item \emph{x is divisible by y.}
+    \begin{itemize}
+    \item \textbf{Bound:} none
+    \item \textbf{Free:} $x$, $y$
+    \end{itemize}
+  \item $\emph{for any x,} \enspace x - y = x + (-y).$
+    \begin{itemize}
+    \item \textbf{Bound:} $x$
+    \item \textbf{Free:} $y$
+    \end{itemize}
+  \item $\emph{if } \enspace x < y, \enspace \emph{then there is a
+      number z such that } \enspace x < y \enspace \emph{and} \enspace
+    y < z.$
+    \begin{itemize}
+    \item \textbf{Bound:} $z$
+    \item \textbf{Free:} $x$, $y$
+    \end{itemize}
+  \item $\emph{for any number y, if} \enspace y > 0, \enspace
+    \emph{then there is a number z such that} \enspace x = y \cdot z.$
+    \begin{itemize}
+    \item \textbf{Bound:} $y$, $z$
+    \item \textbf{Free:} $x$
+    \end{itemize}
+  \item $\emph{if} \enspace x = y^2 \enspace \emph{and} \enspace y >
+    0, \enspace \emph{then, for any number z,} \enspace x > -z^2.$
+    \begin{itemize}
+    \item \textbf{Bound:} $z$
+    \item \textbf{Free:} $x$, $y$
+    \end{itemize}
+  \item $\emph{if there exists a number y such that} \enspace x > y^2,
+    \enspace \emph{then, for any number z,} \enspace x > -z^2.$
+    \begin{itemize}
+    \item \textbf{Bound:} $y$, $z$
+    \item \textbf{Free:} $x$
+    \end{itemize}
+  \end{enumerate}
+
+  Formulate the above expressions by replacing the quantifiers by the
+  symbols introduced in Section 4.
+
+  \begin{enumerate}
+  \item \emph{x is divisible by y.}
+  \item $\forall x, \enspace x - y = x + (-y).$
+  \item $x < y \rightarrow \exists z, \enspace x < y \enspace
+    \emph{and} \enspace y < z.$
+  \item $\forall y, \enspace y > 0 \rightarrow \exists z, \enspace x =
+    y \cdot z.$
+  \item $x = y^2 \emph{ and } y > 0 \rightarrow \forall z, \enspace x
+    > -z^2.$
+  \item $\exists y, \enspace x > y^2 \rightarrow \forall z, \enspace x
+    > -z^2.$
+  \end{enumerate}
+
+\item If, in the sentential function (e) of the preceding exercise, we
+  replace the variable ``$z$'' in both places by ``$y$'', we obtain an
+  expression in which ``$y$'' occurs in some places as a free and in
+  others as a bound variable; in what places and why?
+
+  \begin{equation*}
+    x = y^2 \emph{ and } y > 0 \rightarrow \forall y, \enspace y > -z^2.
+  \end{equation*}
+
+  The first and second occurrences of $y$ are free, but occurrences
+  after the implication are bound by the universal quantifier.
+
+\item Try to state quite generally under which conditions a variable
+  occurs at a certain place of a given sentential function as a free
+  or bound variable.
+
+  A variable is bound whenever it appears after a quantifier has been
+  applied to it.  If a variable appears, but no quantifier directly
+  refers to it yet in the formula (to the left of the occurrence),
+  then it is free.
+
+\item Which numbers satisfy the sentential function:
+  \begin{equation*}
+    \emph{there is a number y such that} \enspace x = y^2
+  \end{equation*}
+  \begin{itemize}
+  \item For $x$, the squares of all numbers in the universe of
+    discourse.
+  \end{itemize}
+  and which satisfy
+  \begin{equation*}
+    \emph{there is a number y such that} \enspace x \cdot y = 1
+  \end{equation*}
+  \begin{itemize}
+  \item For $x$ and the universe of discourse being $\mathbb{N}$, only
+    1 satisfies the function.
+  \end{itemize}
+
+\end{enumerate}

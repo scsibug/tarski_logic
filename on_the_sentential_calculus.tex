@@ -1,0 +1,213 @@
+\section{On the sentential calculus}
+\begin{enumerate}
+\item Give examples of specifically mathematical expressions from the
+  fields of arithmetic and geometry.
+  \begin{itemize}
+  \item \textbf{Arithmetic:}
+    $$3 \div 4$$
+    $$21 + 42 \times 3$$
+    $$2^8 - 2^6$$
+  \item \textbf{Geometry:}
+    $$\text{The volume of a sphere of radius 3}$$
+    $$\text{The sum of the measures of angles in any triangle}$$
+    $$\text{The ratio of a circle's circumference to its diameter}$$
+  \end{itemize}
+\item Differentiate in the following two sentences between the
+  specifically mathematical expressions and those belonging to the
+  domain of logic:
+  \begin{enumerate}
+    \item \emph{for any numbers x and y, if $x>0$ and $y<0$, then
+      there is a number z such that $z<0$ and $x=y \cdot z$;}
+      \begin{itemize}
+      \item \textbf{Mathematical:} $$x>0$$ $$y<0$$ $$z<0$$ $$x=y \cdot
+        z$$
+      \item \textbf{Logical:} Universal quantification over $x$ and
+        $y$, implication (if{\ldots}then), conjuction (and), and
+        existential quantification for some $z$.
+      \end{itemize}
+  \end{enumerate}
+\item Form the conjuction of the negations of the following sentential
+  functions:
+  $$x<3$$
+  and
+  $$x>3.$$
+  What number satisfies this conjuction?
+  \begin{itemize}
+  \item $(\sim x<3) \wedge (\sim x>3)$
+  \item $(x \ge 3) \wedge (x \le 3)$
+  \item $x = 3$
+  \end{itemize}
+\item In which of its two meanings does the word ``or'' occur in the
+  following sentences:
+  \begin{enumerate}
+  \item \emph{two ways were open to him: to betray his country or to
+    die;}
+    \begin{itemize}
+    \item Exclusive
+    \end{itemize}
+  \item \emph{if I earn a lot of money or win the sweepstake, I shall
+    go on a long journey.}
+    \begin{itemize}
+    \item Non-exclusive
+    \end{itemize}
+  \end{enumerate}
+  Give further examples in which the word ``or'' is used in its first
+  or in its second meaning.
+  \begin{itemize}
+  \item \textbf{Exclusive:}
+    \begin{itemize}
+    \item \emph{The package will arrive Thursday or Friday.}
+    \item \emph{Jefferson or Adams will be elected president.}
+    \end{itemize}
+  \item \textbf{Non-exclusive:}
+    \begin{itemize}
+    \item \emph{We have Coke or Pepsi.}
+    \item \emph{It is hot outside, or the air conditioning is broken.}
+    \end{itemize}
+  \end{itemize}
+\item Consider the following conditional sentences:
+  \begin{enumerate}
+  \item \emph{if today is Monday, then tomorrow is Tuesday;}
+    \begin{itemize}
+    \item If it is any day except Monday, the antecedent is false, so
+      the entire sentence is true.  On Monday, the consequent is true.
+      Therefore, the statement is always true.
+    \end{itemize}
+  \item \emph{if today is Monday, then tomorrow is Saturday;}
+    \begin{itemize}
+    \item If it is not Monday, the sentence is true.  When it is
+      Monday, the consequent, and the entire sentence is false.
+    \end{itemize}
+  \item \emph{if today is Monday, then the 25th of December is
+    Christmas day;}
+    \begin{itemize}
+    \item True, since the consequent is always true.
+    \end{itemize}
+  \item \emph{if wishes were horses, beggars could ride;}
+    \begin{itemize}
+    \item Wishes are not horses, so since the antecedent is false, the
+      entire statement is always true.  This case is somewhat
+      ambiguous because of the use of ordinary language.
+    \end{itemize}
+  \item \emph{if a number x is divisible by 2 and by 6, then it is
+    divisible by 12;}
+    \begin{itemize}
+    \item False, since 18 is divisible by both 2 and 6, but is not
+      divisible by 12.
+    \end{itemize}
+  \item \emph{if 18 is divisible by 3 and by 4, then 18 is divisible
+    by 6;}
+    \begin{itemize}
+    \item True, since 18 is divisible by 6.  The truth of the
+      antecedent is irrelevent, since the consequent is always true.
+    \end{itemize}
+  \end{enumerate}
+  Which of the above implications are true and which are false from
+  the point of view of mathematical logic?  In which cases does the
+  question of meaningfulness and of truth or falsity raise any doubts
+  from the standpoint of ordinary language?  Direct special attention
+  to the sentence (b) and examine the question of its truth as
+  dependent on the day of the week on which it was uttered.
+\item Put the following theorems into the form of ordinary conditional
+  sentences:
+  \begin{enumerate}
+  \item For a triangle to be equilateral, it is sufficient that the
+    angles of the triangle be congruent;
+    \begin{itemize}
+    \item If the angles of a triangle are congruent, the triangle is
+      equilateral.
+    \item Paraphrased as: Congruent angles on a triangle mean it is
+      equilateral.
+    \end{itemize}
+  \item the condition: x is divisible by 3, is necessary for x to be
+    divisible by 6.
+    \begin{itemize}
+    \item If x is divisible by 6, then x is divisible by 3.
+    \item Paraphrased as: x is divisible by 3, when x is divisible by 6.
+    \end{itemize}
+  \end{enumerate}
+  Give further paraphrases of these two sentences.
+\item Is the condition: $$x{\cdot}y > 4$$ necessary or sufficient for
+  the validity of: $$x > 2 \quad \text{\emph{and}} \quad y > 2 \quad
+  \text{?}$$
+  \begin{itemize}
+  \item $x{\cdot}y > 4$ is not a sufficient condition, since $1{\cdot}5 >
+    4$, but $x \ngtr 2$.
+  \item It is necessary, since $x$ and $y$ must both be greater than 2,
+    and $2{\cdot}2=4$.  So, $x{\cdot}y > 4$ given the lower bounds on
+    $x$ and $y$.
+  \end{itemize}
+\item Give alternative formulations for the following sentences:
+  \begin{itemize}
+  \item \emph{x is divisible by 10 if, and only if, x is divisible
+      both by 2 and by 5;}
+    \begin{itemize}
+    \item \emph{x being divisible by 10 is a necessary and sufficient
+        condition for x being divisible by both 2 and by 5.}
+    \end{itemize}
+  \item \emph{for a quadrangle to be a parallelogram it is necessary
+      and sufficient that the point of intersection of its diagonals
+      be at the same time the midpoint of each diagonal.}
+    \begin{itemize}
+    \item \emph{a quadrangle is a parallelogram if, and only if, the
+        point of intersection of its diagonals be at the same time the
+        midpoint of each diagonal.}
+    \end{itemize}
+  \end{itemize}
+  Give futher examples of theorems from the fields of arithmetic and
+  geometry that have the form of equivalences.
+  \begin{itemize}
+  \item \textbf{Arithmetic:} $x{\cdot}y=z$ \emph{if, and only if,}
+    $y{\cdot}x=z$. \text{(Symmetry)}
+  \item \textbf{Geometry:} \emph{A triangle is a right triangle if,
+      and only if, the square of the length of the hypotenuse is equal
+      to the sum of the squares of the lengths of the other two
+      sides.} (Pythagorean Theorem)
+  \end{itemize}
+\item Which of the following sentences are true:
+  \begin{enumerate}
+  \item \emph{a triangle is isosceles if, and only if, all the
+      altitudes of the triangle are congruent;}
+    \begin{itemize}
+    \item False.  If all altitudes are congruent, the triangle must be
+      equilateral.
+    \end{itemize}
+  \item \emph{the fact that $x \neq 0$ is necessary and sufficient for
+      $x^2$ to be a positive number;}
+    \begin{itemize}
+    \item True.  $x^2$ is always positive, unless $x$ is 0.  $x$ being
+      either positive or negative also implies that $x^2 > 0$.
+    \end{itemize}
+  \item \emph{the fact that a quadrangle is a square implies that all
+      its angles are right angles, and conversely;}
+    \begin{itemize}
+    \item True, by definition.  The converse is false, an oblong
+      rectangle has all right angles but is not a square.
+    \end{itemize}
+  \item \emph{for x to be divisible by 8 it is necessary and
+      sufficient that x be divisible both by 4 and by 2} \quad ?
+    \begin{itemize}
+    \item False.  Take $x=12$.  $x$ is divisible by 4 and 2, but
+      not by 8.
+    \end{itemize}
+  \end{enumerate}
+\item Assuming the terms ``natural number'' and ``product'' (or
+  ``quotient'', respectively) to be known already, construct the
+  definition of the term ``divisible'', giving it the form of an
+  equivalence.  Likewise formulate the definition of the term
+  ``parallel''; what terms (from the domain of geometry) have to be
+  presupposed for this purpose?
+  \begin{itemize}
+  \item \textbf{Divisible:} We say that x is divisible by y, if and
+    only if, there exists some natural number z, such that the product
+    of y and z is x.
+  \item \textbf{Parallel:} We say that two lines, a and b, in
+    euclidean space are parallel, if and only if, every point on line
+    a has the same minimum distance to a point on line b.
+    \begin{itemize}
+      \item Presupposes the terms ``line'', ``Euclidean space'', and
+        ``minimum distance''.
+    \end{itemize}
+  \end{itemize}
+
+\end{enumerate}
