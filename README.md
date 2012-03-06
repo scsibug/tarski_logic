@@ -3,6 +3,8 @@ Solutions to Tarski's Introduction to Logic
 
 This repository contains solutions to Alfred Tarski's book, "Introduction to logic and to the methodology of deductive sciences".  It is a work in progress.
 
+A PDF of the most recent build can be obtained from the [download link](https://github.com/downloads/scsibug/tarski_logic/introToLogicSol.pdf) on GitHub.
+
 Contributing
 ------------
 
